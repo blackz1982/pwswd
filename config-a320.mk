@@ -9,8 +9,6 @@ BACKEND_KILL := Y
 # Disabled for now; doesn't work well with double buffering
 # BACKEND_SCREENSHOT := Y
 
-DEFAULT_MIXER = "\"SoftMaster\""
-
 CROSS_COMPILE?=mipsel-a320-linux-uclibc-
 
 CFLAGS += -DWITH_REVERSED_X_Y
