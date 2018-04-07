@@ -47,7 +47,6 @@ static struct {
 	  { tvout,		"TV_OUT", },
 	  { screenshot,	"SCREENSHOT", },
 	  { kill,		"KILL", },
-	  { ratiomode,          "RATIOMODE", },
 };
 
 static void shortcut_free(struct shortcut *scuts)

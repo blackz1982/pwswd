@@ -56,11 +56,6 @@ ifdef BACKEND_KILL
 	CFLAGS += -DBACKEND_KILL
 endif
 
-ifdef BACKEND_RATIOMODE
-	OBJS += backend/ratiomode/ratiomode.o
-	CFLAGS += -DBACKEND_RATIOMODE
-endif
-
 
 .PHONY: all clean
 
